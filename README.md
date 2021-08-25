@@ -35,7 +35,7 @@ Datasets Used/Created:
 - [`Austin_Animal_Shelter_Outcomes.csv`]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/data/Austin_Animal_Center_Outcomes.csv'): Initial Outcomes dataset taken from the Austin Animal Center website
 - [`intakes_initial.csv`]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/data/intakes_initial.csv'): Intakes dataset after preliminary cleaning, before the merge with Outcomes
 - [`outcomes_initial.csv`]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/data/outcomes_initial.csv'): Outcomes dataset after preliminary cleaning, before the merge with Intakes
-- [`main.csv`]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/data/main.csv'): Dataset used for modeling
+- [`main.csv`]('data/main.csv'): Dataset used for modeling
 
 Below is a list of relevant features included in `main.csv` as they relate to the final predictive model:
 
@@ -59,6 +59,6 @@ Below is a list of relevant features included in `main.csv` as they relate to th
 |prev_transfer|int|main.csv|Number of times animal had previously arrived at shelter and was transferred|
 |sex|obj|main.csv|Sex of animal|
 
-## Part III: Conclusion & Recommendations
+## Part III: Conclusions & Recommendations
 
 Ultimately, the project team was successful in crafting a model that performs well above the baseline when predicting whether or not an animal will be adopted. Our hope is that the Austin Animal Center can run our model with all of their intakes on a weekly basis to understand expected capacity at shelter and plan accordingly. While Austin Animal Center does a great job with data collection standardizing inputs such as age, date of birth, breed, and color could help make the information even more accurate and usable in the future.
