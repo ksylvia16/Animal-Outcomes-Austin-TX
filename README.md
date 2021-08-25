@@ -22,7 +22,7 @@ The modeling process itself involved a great deal of exploration. The project te
 The binary classification model became our primary model as it closely aligns with the concerns and needs for animal shelters listed above. After much exploration, a simple Gradient Boost Classifier model showed the strongest accuracy results performing well above baseline. The final model exists in six different versions-- one model for each intake type. The StreamLit app filters for this value and applies the correct version of the model based on the information a user enters.
 
 The flow of this project can be followed by reading into the following notebooks:
-* [01: Data Cleaning]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/code/01_Data_Cleaning.ipynb')
+* [01: Data Cleaning]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/f7101b0ab115bdc730fb2574c0439b9e734f7b0a/code/01_Data_Cleaning.ipynb')
 * [02: Initial EDA]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/code/02_Initial_Eda.ipynb')
 * [03: Final Data Prep]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/code/03_Final_Data_Prep.ipynb')
 * [04: Additional EDA]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/code/04_Additional_EDA.ipynb')
