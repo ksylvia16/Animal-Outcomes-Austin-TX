@@ -23,20 +23,19 @@ The binary classification model became our primary model as it closely aligns wi
 
 The flow of this project can be followed by reading into the following notebooks:
 * [01: Data Cleaning](/code/01_Data_Cleaning.ipynb)
-* 
-* [02: Initial EDA]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/code/02_Initial_Eda.ipynb')
-* [03: Final Data Prep]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/code/03_Final_Data_Prep.ipynb')
-* [04: Additional EDA]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/code/04_Additional_EDA.ipynb')
-* [05: Models]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/code/05_Models.ipynb')
+* [02: Initial EDA](/code/02_Initial_Eda.ipynb)
+* [03: Final Data Prep](/code/03_Final_Data_Prep.ipynb)
+* [04: Additional EDA](/code/04_Additional_EDA.ipynb)
+* [05: Models](/code/05_Models.ipynb)
 
 ## Part II: Data Dictionary
 
 Datasets Used/Created:
-- [`Austin_Animal_Shelter_Intakes.csv`]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/data/Austin_Animal_Center_Intakes.csv'): Initial Intakes dataset taken from the Austin Animal Center website
-- [`Austin_Animal_Shelter_Outcomes.csv`]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/data/Austin_Animal_Center_Outcomes.csv'): Initial Outcomes dataset taken from the Austin Animal Center website
-- [`intakes_initial.csv`]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/data/intakes_initial.csv'): Intakes dataset after preliminary cleaning, before the merge with Outcomes
-- [`outcomes_initial.csv`]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/data/outcomes_initial.csv'): Outcomes dataset after preliminary cleaning, before the merge with Intakes
-- [`main.csv`]('./data/main.csv'): Dataset used for modeling
+- [`Austin_Animal_Shelter_Intakes.csv`](/data/Austin_Animal_Center_Intakes.csv): Initial Intakes dataset taken from the Austin Animal Center website
+- [`Austin_Animal_Shelter_Outcomes.csv`](/data/Austin_Animal_Center_Outcomes.csv): Initial Outcomes dataset taken from the Austin Animal Center website
+- [`intakes_initial.csv`](/data/intakes_initial.csv): Intakes dataset after preliminary cleaning, before the merge with Outcomes
+- [`outcomes_initial.csv`](/data/outcomes_initial.csv): Outcomes dataset after preliminary cleaning, before the merge with Intakes
+- [`main.csv`](/data/main.csv): Dataset used for modeling
 
 Below is a list of relevant features included in `main.csv` as they relate to the final predictive model:
 
