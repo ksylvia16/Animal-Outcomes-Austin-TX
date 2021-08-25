@@ -35,7 +35,7 @@ Datasets Used/Created:
 - [`Austin_Animal_Shelter_Outcomes.csv`]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/data/Austin_Animal_Center_Outcomes.csv'): Initial Outcomes dataset taken from the Austin Animal Center website
 - [`intakes_initial.csv`]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/data/intakes_initial.csv'): Intakes dataset after preliminary cleaning, before the merge with Outcomes
 - [`outcomes_initial.csv`]('https://github.com/ksylvia16/Animal-Outcomes-Austin-TX/blob/main/data/outcomes_initial.csv'): Outcomes dataset after preliminary cleaning, before the merge with Intakes
-- [`main.csv`]('data/main.csv'): Dataset used for modeling
+- [`main.csv`]('./data/main.csv'): Dataset used for modeling
 
 Below is a list of relevant features included in `main.csv` as they relate to the final predictive model:
 
